@@ -1,5 +1,6 @@
-baseURL = "/"
-title = "Goldydocs"
+# baseURL = "/"
+baseURL = "http://127.0.0.1:1313"
+title = "FOLIO Documentation"
 
 enableRobotsTXT = true
 
@@ -53,18 +54,19 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs"
-description = "A Docsy example site"
+title = "FOLIO Documentation"
+description = "FOLIO Documentation"
 languageName ="English"
 # Weight used for sorting.
-weight = 1
-[languages.no]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
+# Remove the comment signs out to return to using additional languages
+#weight = 1
+#[languages.no]
+#title = "Goldydocs"
+#description = "Docsy er operativsystem for skyen"
+#languageName ="Norsk"
+#contentDir = "content/no"
+#time_format_default = "02.01.2006"
+#time_format_blog = "02.01.2006"
 
 [markup]
   [markup.goldmark]
@@ -77,6 +79,9 @@ time_format_blog = "02.01.2006"
 copyright = "The Docsy Authors"
 privacy_policy = "https://policies.google.com/privacy"
 
+#From Arnon
+custom_css = ["css/toc.css"]
+
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
 
@@ -84,13 +89,13 @@ privacy_policy = "https://policies.google.com/privacy"
 # This menu appears only if you have at least one [params.versions] set.
 version_menu = "Releases"
 
-# Flag used in the "version-banner" partial to decide whether to display a 
+# Flag used in the "version-banner" partial to decide whether to display a
 # banner on every page indicating that this is an archived version of the docs.
 # Set this flag to "true" if you want to display the banner.
 archived_version = false
 
 # The version number for the version of the docs represented in this doc set.
-# Used in the "version-banner" partial to display a version number for the 
+# Used in the "version-banner" partial to display a version number for the
 # current doc set.
 version = "0.0"
 
@@ -133,13 +138,13 @@ footer_about_disable = false
 # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
 # add "hide_feedback: true" to the page's front matter.
 [params.ui.feedback]
-enable = true
+enable = false
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
 yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
 no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
 
 # Adds a reading time to the top of each doc.
-# If you want this feature, but occasionally need to remove the Reading time from a single page, 
+# If you want this feature, but occasionally need to remove the Reading time from a single page,
 # add "hide_readingtime: true" to the page's front matter
 [params.ui.readingtime]
 enable = false
@@ -178,3 +183,21 @@ enable = false
 	icon = "fa fa-envelope"
         desc = "Discuss development issues around the project"
 
+#From Arnon
+[[menu.main]]
+    identifier = "developers"
+    name = "Developers"
+    url = "https://dev.folio.org"
+    weight = 10
+
+[[menu.main]]
+    identifier = "wiki"
+    name = "Project Wiki"
+    url = "https://wiki.folio.org"
+    weight = 20
+
+[[menu.main]]
+    identifier = "discussion"
+    name = "Discussion Boards"
+    url = "https://discuss.folio.org"
+    weight = 30

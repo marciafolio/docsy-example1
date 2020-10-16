@@ -1,24 +1,23 @@
 
 ---
-title: "Documentation"
-linkTitle: "Documentation"
-weight: 20
-menu:
-  main:
-    weight: 20
+title: "Home"
+linkTitle: "Home"
+weight: 10
+
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+Welcome to FOLIO, an open source project that creates a new paradigm for collaboration between libraries, developers and vendors.  This open platform moves the industry well beyond the traditional library management system, offering libraries more choices of features and services.
+
+![FOLIO Intro](img/FOLIO_6.png)
+
+## A Modern Library Ecosystem
+
+The FOLIO project aims to facilitate a sustainable, community-driven collaboration around the creation of a modern technology ecosystem that empowers libraries through open source applications to manage library resources and expand library value.
+
+### Community Collaboration
+
+Development of the FOLIO platform is driven by the transparent collaboration of librarians, developers and vendors. A Product Council provides oversight of platform development, with representation from the many institutions and organizations involved.  A healthy number of communication channels supports ongoing interactions to move the project forward.
 
 
-This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project. 
-
-For large documentation sets we recommend adding content under the headings in this section, though if some or all of them don’t apply to your project feel free to remove them or add your own. You can see an example of a smaller Docsy documentation site in the [Docsy User Guide](https://docsy.dev/docs/), which lives in the [Docsy theme repo](https://github.com/google/docsy/tree/master/userguide) if you'd like to copy its docs section. 
-
-Other content such as marketing material, case studies, and community updates should live in the [About](/about/) and [Community](/community/) pages.
-
-Find out how to use the Docsy theme in the [Docsy User Guide](https://docsy.dev/docs/). You can learn more about how to organize your documentation (and how we organized this site) in [Organizing Your Content](https://docsy.dev/docs/best-practices/organizing-content/).
-
-
+## The future is here: An open source library platform
+FOLIO is an open source Library Services Platform developed by libraries, vendors and developers who collaborate to reimagine library software. The collaboration enables librarians and vendors alike to contribute functional expertise and developers in any area of library workflows. Due to the open source nature of the platform and choice of service providers, libraries can speed up the delivery of extensible or enhanced software and deliver the enhancement(s) to the community without relying on a particular vendor’s roadmap.
